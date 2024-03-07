@@ -38,6 +38,11 @@ function getData(){
     listContainer.innerHTML = localStorage.getItem("data");
 }
 
+const resetButton = document.getElementById("reset");
 
+function resetList(){
+    listContainer.innerHTML = '';
+    saveData();
+}
 
 getData();
