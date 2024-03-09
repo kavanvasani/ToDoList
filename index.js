@@ -38,10 +38,20 @@ function getData(){
     listContainer.innerHTML = localStorage.getItem("data");
 }
 
+let popup = document.getElementById("popup");
+
+function popUp(){
+    popup.classList.add("open-popup");
+}
+function closePopUp(){
+    popup.classList.remove("open-popup");
+}
+
 const resetButton = document.getElementById("reset");
 
 function resetList(){
     listContainer.innerHTML = '';
+    closePopUp()
     saveData();
 }
 
