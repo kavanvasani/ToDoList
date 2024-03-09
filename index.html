@@ -26,15 +26,14 @@
             <div class="popup" id="popup">
                 <img src="images/404-tick.png">
                 <h2>Reset List?</h2>
+                <button type="button" class="cancel" onclick="closePopUp()">
+                    <span>&times;</span>
+                </button>
                 <p>Are you sure you want to reset the list?</p>
-                <button type="button" onclick="resetList()">Reset</button>
+                <button type="button" class="confirm-reset" onclick="resetList()">Reset</button>
             </div>
-        </div>
-
-
-        
+        </div>    
     </div>
-
 
 
     <script src="index.js"></script>

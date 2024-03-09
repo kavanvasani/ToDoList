@@ -144,11 +144,28 @@ ul li span:hover{
     border-radius: 50%;
 }
 
-.popup button{
+.confirm-reset{
     width: 50%;
     background-color: lightgreen;
     margin-top: 50px;
     padding: 10px 0px;
     border-radius: 5px;
     outline: none;
+}
+
+.cancel{
+    position: absolute;
+    right: 10%;
+    height: 40px;
+    width: 40px;
+    top: 10%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.cancel:hover{
+    background-color: salmon;
+    border-radius: 50%;
 }
