@@ -169,17 +169,3 @@ ul li span:hover{
     background-color: salmon;
     border-radius: 50%;
 }
-
-.weatherOption{
-    margin-left: 90%;
-    margin-right: 1%;
-    margin-top: 1%;
-
-}
-
-.getWeather{
-    background-color: lightyellow;
-    border-radius: 20px;
-    outline: none;
-    padding: 8px;
-}
